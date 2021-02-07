@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Hungry Monster</title>
+</head>
+
+<body>
+    <main class="container">
+        <!-- header part -->
+
+        <header class="header">
+            <img class="logo" src="logo.png" alt="">
+            <ul class="navbar">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Recipies</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            </ul>
+        </header>
+
+        <!-- search bar section  -->
+        <section class="search-bar">
+            <div class="search-group">
+                <input id="input" type="text" placeholder="Search food here">
+                <button id="search-btn" class="btn btn-search">search</button>
+            </div>
+        </section>
+
+        <!-- search result  -->
+
+        <section class="search-result">
+            <div id="meal-container" class="grid">
+                <!-- dynamic search result will show here  -->
+            </div>
+        </section>
+
+        <!-- ingredients section  -->
+
+        <section id="ingredients" class="ingredients">
+            <!-- dyanamic ingredientswill show here  -->
+        </section>
+        <section id="error-msg" class="error-message">
+            <div class="msg-box">
+                <h1>warning</h1>
+                <p class="msg-body"></p>
+                <button class="btn btn-ok">OK</button>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- javascript part -->
+    <script src="app.js"></script>
+</body>
+
+</html>
